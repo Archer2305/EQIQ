@@ -13,6 +13,15 @@ border-right: 5px solid;
 font-family:  monospace;
 
 }
+.typing-2{
+width:18ch;
+animation: typing 3s steps(200), blink .5s step-end infinite alternate;
+white-space:nowrap;
+overflow: hidden;
+border-right: 5px solid;
+font-family:  monospace;
+
+}
 @keyframes typing{
     from{
         width:0
