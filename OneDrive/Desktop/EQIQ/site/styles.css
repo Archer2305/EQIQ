@@ -1,0 +1,36 @@
+.wrapper{
+    height:  70vh;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+}
+.typing{
+width:18ch;
+animation: typing 3s steps(27), blink .5s step-end infinite alternate;
+white-space:nowrap;
+overflow: hidden;
+border-right: 5px solid;
+font-family:  monospace;
+
+}
+@keyframes typing{
+    from{
+        width:0
+    }
+}
+
+@keyframes blink{
+    50%{
+        border-color:transparent;
+       
+    }
+}
+.grid-item{
+    align-items: center;
+    justify-content: center;
+    height:250px;
+     width:230px;
+}
+.logo:hover{
+box-shadow: 2px 2px 3px 2px #0d0f11;
+}
